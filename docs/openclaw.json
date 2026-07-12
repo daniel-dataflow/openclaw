@@ -6,9 +6,10 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "google/gemini-2.5-flash"
+        "primary": "google/gemini-2.5-flash",
+        "thinking_budget": 1024
       },
-      "thinkingDefault": "off"
+      "thinkingDefault": "on"
     }
   },
   "models": {

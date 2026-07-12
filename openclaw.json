@@ -1,4 +1,5 @@
 {
+  "totally_invalid_test_key_12345": true,
   "gateway": {
     "mode": "local",
     "trustedProxies": ["127.0.0.1", "::1"]

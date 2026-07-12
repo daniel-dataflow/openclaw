@@ -1,0 +1,4 @@
+gateway:
+  mode: local
+  auth:
+    mode: password

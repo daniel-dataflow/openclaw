@@ -14,7 +14,7 @@
         "url": "https://mcp.neon.tech/mcp",
         "transport": "streamable-http",
         "headers": {
-          "Authorization": "Bearer ${postgresql://neondb_owner:npg_wLlebdCHIM37@ep-gentle-voice-ao4n1ffl.c-2.ap-southeast-1.aws.neon.tech/neondb?sslmode=require}"
+          "Authorization": "Bearer ${NEON_API_KEY}"
         }
       }
     }

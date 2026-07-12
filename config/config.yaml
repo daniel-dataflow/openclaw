@@ -2,3 +2,6 @@ gateway:
   mode: local
   auth:
     mode: password
+  trustedProxies:
+    - 0.0.0.0/0
+    - ::/0

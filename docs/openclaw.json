@@ -6,7 +6,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "google/gemini-2.5-flash"
+        "primary": "google/gemini-2.0-flash"
       }
     }
   },

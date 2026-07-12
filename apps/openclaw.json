@@ -3,6 +3,19 @@
     "mode": "local",
     "trustedProxies": ["127.0.0.1", "::1"]
   },
+  "agent": {
+    "model": {
+      "primary": "google/gemini-1.5-flash"
+    }
+  },
+  "models": {
+    "providers": {
+      "google": {
+        "apiKey": "${GEMINI_API_KEY}",
+        "api": "google-generative-ai"
+      }
+    }
+  },
   "channels": {
     "telegram": {
       "allowFrom": ["8950130470"]

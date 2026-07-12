@@ -3,9 +3,11 @@
     "mode": "local",
     "trustedProxies": ["127.0.0.1", "::1"]
   },
-  "agent": {
-    "model": {
-      "primary": "google/gemini-1.5-flash"
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google/gemini-1.5-flash"
+      }
     }
   },
   "models": {

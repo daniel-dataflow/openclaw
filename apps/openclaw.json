@@ -18,6 +18,7 @@
   },
   "channels": {
     "telegram": {
+      "dmPolicy": "allowlist",
       "allowFrom": ["8950130470"]
     }
   },
